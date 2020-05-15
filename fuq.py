@@ -13,6 +13,5 @@ x = requests.post(url, data = myobj)
 
 
 
-
 # x = requests.get(url).json()
 # print(x)
