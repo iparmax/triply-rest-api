@@ -14,3 +14,4 @@ class TripViewSet(viewsets.ModelViewSet):
     queryset = models.Trip.objects.all()
     filter_backends = (filters.SearchFilter,)
     search_fields = ("user_id", "email","origin",'destination','dep_time')
+    

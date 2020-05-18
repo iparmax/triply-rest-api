@@ -125,6 +125,6 @@ USE_TZ = True
 
 STATIC_URL = '/static/'
 
-AUTH_USER_MODEL = "trips_api.Trip"
+AUTH_USER_MODEL = "trips_api.SuperUser"
 
 STATIC_ROOT ='static/'
